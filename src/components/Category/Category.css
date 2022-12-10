@@ -8,3 +8,11 @@
     border-bottom: 2px solid black;
  
 }
+.bg-gray{
+    background-color: #EDEEF0;
+}
+.button{
+    padding: 7px 12px;
+    border-radius: 4px;
+    border: 0;
+}
