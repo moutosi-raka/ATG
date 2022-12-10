@@ -1,19 +1,20 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import articleImg from '../../assets/article/Article.png'
+import sarah from '../../assets/education/Sarah West.png'
 import karma from '../../assets/article/karme.png'
 import { HiOutlineEllipsisHorizontal, HiOutlineEye } from "react-icons/hi2";
 import { FaShareAlt } from 'react-icons/fa';
+import education from '../../assets/education/education.png'
 
-const Article = () => {
+const Education = () => {
     return (
         <div className='my-3'>
             <Card>
-                <Card.Img variant="top" src={articleImg}/>
+                <Card.Img variant="top" src={education}/>
                 <Card.Body>
-                    <p className='m-0'>✍️ Article</p>
+                    <p className='m-0'>🔬️ Education</p>
                     <div className='d-flex justify-content-between align-items-center'>
-                      <h6 className='fw-bold'>What if famous brands had regular fonts?<br/> Meet RegulaBrands!</h6>
+                      <h6 className='fw-bold'>Tax Benefits for Investment under National Pension <br/>  Scheme launched by Government</h6>
                       <p className='fs-4 fw-bold'><HiOutlineEllipsisHorizontal></HiOutlineEllipsisHorizontal></p>
                     </div>
                     
@@ -22,8 +23,8 @@ const Article = () => {
                     </Card.Text>
                     <div className='d-flex justify-content-between align-items-center'>
                         <div className='flex'>
-                            <img className='me-2' style={{width: '40px', height: '40px'}} src={karma} alt=''/>
-                            <p className='fw-bold mt-16'>Sarthak Kamra</p>
+                            <img className='me-2' style={{width: '40px', height: '40px'}} src={sarah} alt=''/>
+                            <p className='fw-bold mt-16'>Sarah West</p>
                         </div>
                         <div className='d-flex align-items-center'>
                           <div>
@@ -38,4 +39,4 @@ const Article = () => {
     );
 };
 
-export default Article;
+export default Education;

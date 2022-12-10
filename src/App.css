@@ -1,7 +1,20 @@
 .mx-20{
     margin: 3rem 7rem;
 }
+.mt-16{
+    margin-top: 1rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
 
+.shared{
+    background-color: '#EDEEF0';
+    font-size: .9rem;
+    border: 0;
+    padding: 5px 10px;
+}
 html{
     font-size: 100%;
 }
