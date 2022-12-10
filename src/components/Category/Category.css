@@ -1,0 +1,10 @@
+.nav-link{
+    color: #8A8A8A!important;
+    padding: 20px!important;
+}
+
+.active,.nav-link:hover{
+    color: #000!important;
+    border-bottom: 2px solid black;
+ 
+}
