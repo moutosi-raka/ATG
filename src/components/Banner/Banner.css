@@ -1,0 +1,76 @@
+ .banner{
+    /* background: black;
+    overflow: hidden; */
+      background: url('../../assets/Rectangle\ 2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 70vh;
+      position: relative;
+      color: white;
+      /* background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain; */
+
+} 
+.banner-img{
+    /* width: 100%;
+    opacity: 0.4;
+    background-color: linear-gradient(#e66465, #9198e5);
+    position: relative;
+    z-index: 0; */
+  
+}
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.banner-header h3{
+    font-weight: 700;
+    font-size: 36px;
+}
+.banner-header p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 998px){
+    html{
+        font-size: 55%;
+    }
+    .banner{
+        min-height: 50vh;
+    }
+    .banner-header h3{
+       
+        font-size: 20px;
+    }
+    .banner-header p{
+     
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 768px){
+   
+    .banner{
+        min-height: 40vh;   
+    }
+    .banner-header h3{
+       
+        font-size: 17px;
+    }
+    .banner-header p{
+     
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
