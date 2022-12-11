@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Sidebar/Sidebar.css'
 import { TbMapPin} from "react-icons/tb";
 import { MdClose, MdInfoOutline } from "react-icons/md";
@@ -8,8 +8,10 @@ import MBA from '../../assets/MBA.png'
 import Philosophy from '../../assets/Philosophy.png'
 
 import { FaRegThumbsUp } from "react-icons/fa";
-
+import {useRef, useEffect} from 'react';
 const UserSidebar = () => {
+    const [active, setActive] = useState(false)
+    const ref = useRef(null);
     const follower =[
         {
             id: 1,
@@ -33,6 +35,12 @@ const UserSidebar = () => {
         }
 
     ]
+    const handleClick= (id)=>{
+        const element = ref.current;
+        element.className = "follow follow-active";
+        console.log("eeeeeee", ref);
+        // setActive(current => !current);
+    }
     return (
         <div>
         <div className='border-bottom flex justify-content-between'>
@@ -58,7 +66,9 @@ const UserSidebar = () => {
                             {/* <FaCaretDown className='d-inline'></FaCaretDown> */}
     
             </div>
-            <div><button className='follow'>follow</button></div>
+            <div>
+            <button ref={ref} onClick={()=>handleClick(fl.id)} 
+            className={active ? 'follow-active' : 'follow'}>Follow</button></div>
             </div>)
          }
        </div>

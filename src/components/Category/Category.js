@@ -10,20 +10,20 @@ const Category = () => {
         <div className='d-md-flex d-block justify-content-between align-items-center category'>
             <div>
                 <ul className='nav'>
-                    <li class="nav-item">
-                        <Link class="nav-link active" href="#">All Post(32)</Link>
+                    <li className="nav-item">
+                        <Link className="nav-link active" href="#">All Post(32)</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" href="#">Article</Link>
+                    <li className="nav-item">
+                        <Link className="nav-link" href="#">Article</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" href="#">Event</Link>
+                    <li className="nav-item">
+                        <Link className="nav-link" href="#">Event</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" href="#">Education</Link>
+                    <li className="nav-item">
+                        <Link className="nav-link" href="#">Education</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" href="#">job</Link>
+                    <li className="nav-item">
+                        <Link className="nav-link" href="#">job</Link>
                     </li>
                 </ul>
             </div>
