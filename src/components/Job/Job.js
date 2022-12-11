@@ -1,38 +1,38 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
-import meetUp from '../../assets/meet up/meet Up.png'
-import rohan from '../../assets/meet up/Ronal Jones.png'
+import Joseph from '../../assets/Joseph Gray.png'
 import { HiOutlineEye } from "react-icons/hi2";
 import { FaShareAlt } from 'react-icons/fa';
-import { TbCalendarEvent,  TbMapPin} from "react-icons/tb";
+import { TbMapPin} from "react-icons/tb";
+import { MdWorkOutline } from "react-icons/md";
 import OutLineIcon from '../OutLineIcon/OutLineIcon';
 
-const MeetUp = () => {
+const Job = () => {
     return (
         <div className='my-3'>
         <Card>
-            <Card.Img variant="top" src={meetUp}/>
+           
             <Card.Body>
-                <p className='m-0'>🗓️ Meetup</p>
+                <p className='m-0'>💼️ Job</p>
                 <div className='d-flex justify-content-between align-items-center'>
-                  <h6 className='fw-bold'>Finance & Investment Elite Social Mixer @Lujiazui</h6>
+                  <h6 className='fw-bold'>Software Developer</h6>
                   <OutLineIcon></OutLineIcon>
                 </div>
                 
               <div>
                 <div className='flex'>
-                    <p className='flex me-5'> <TbCalendarEvent className='me-1'></TbCalendarEvent><span>Fri, 12 Oct, 2018</span></p>
-                    <p className='flex me-5'><TbMapPin className='me-1'></TbMapPin>Ahmedabad, India</p>
+                    <p className='flex me-5'> <MdWorkOutline className='me-1'></MdWorkOutline><span>Innovaccer Analytics Private Ltd.</span></p>
+                    <p className='flex me-5'><TbMapPin className='me-1'></TbMapPin>Noida, India</p>
                 </div>
                 <Button className='w-100 my-3' variant="outline-secondary" size="sm">
-                Visit Website
+                Apply on Timesjobs
       </Button>
 
               </div>
                 <div className='d-flex justify-content-between align-items-center'>
                     <div className='flex'>
-                        <img className='me-2' style={{width: '40px', height: '40px'}} src={rohan} alt=''/>
-                        <p className='fw-bold mt-16'>Ronal Jones</p>
+                        <img className='me-2' style={{width: '40px', height: '40px'}} src={Joseph} alt=''/>
+                        <p className='fw-bold mt-16'>Joseph Gray</p>
                     </div>
                     <div className='d-flex align-items-center'>
                       <div>
@@ -47,4 +47,4 @@ const MeetUp = () => {
     );
 };
 
-export default MeetUp;
+export default Job;

@@ -4,6 +4,7 @@ import Banner from '../../components/Banner/Banner';
 import Category from '../../components/Category/Category';
 import Education from '../../components/Education/Education';
 import Header from '../../components/Header/Header';
+import Job from '../../components/Job/Job';
 import MeetUp from '../../components/MeetUp/MeetUp';
 import Sidebar from '../../components/Sidebar/Sidebar';
 
@@ -16,15 +17,17 @@ const Home = () => {
             <div className='mx-20'>
             <Category></Category>
             
-              <div className='d-flex my-5'>
-                <div className='me-5'>
+              <div className='d-md-flex flex-row-reverse flex-md-row my-5'>
+              <div className='order-first order-md-last '>
+                <Sidebar></Sidebar>
+                </div>
+                <div className='me-5 order-last order-md-first '>
                 <Article></Article>
                 <Education></Education>
                 <MeetUp></MeetUp>
+                <Job></Job>
                 </div>
-                <div>
-                <Sidebar></Sidebar>
-                </div>
+               
               </div>
             </div>
         </div>
