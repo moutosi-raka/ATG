@@ -16,6 +16,16 @@
     border-radius: 4px;
     padding: 5px 10px;
 }
+.follow-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.1em;
+}
+.follow{
+    
+}
+
 html{
     font-size: 100%;
 }

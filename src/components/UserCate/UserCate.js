@@ -1,7 +1,8 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import { FaCaretDown } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import user from '../../assets/Vector.png'
+import leave from '../../assets/leave.png'
 
 const UserCate = () => {
     return (
@@ -29,7 +30,7 @@ const UserCate = () => {
         <button className='me-3 button bg-gray'>
         Write post <FaCaretDown className='d-inline'></FaCaretDown>
         </button>
-         <button className='button text-light bg-primary'><img className='me-1'  src={user} alt='' />Join Group </button>
+        <Button variant="outline-secondary"><img className='me-1'  src={leave} alt='' />Leave Group </Button>
         </div>
     </div>
     );

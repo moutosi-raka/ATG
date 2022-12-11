@@ -3,9 +3,9 @@ import Article from '../../components/Article/Article';
 import Education from '../../components/Education/Education';
 import Job from '../../components/Job/Job';
 import MeetUp from '../../components/MeetUp/MeetUp';
-import Sidebar from '../../components/Sidebar/Sidebar';
 import UserCate from '../../components/UserCate/UserCate';
 import UserHeader from '../../components/UserHeader/UserHeader';
+import UserSidebar from '../../components/UserSidebar/UserSidebar';
 
 const UserHomePage = () => {
     return (
@@ -17,7 +17,7 @@ const UserHomePage = () => {
             
               <div className='d-md-flex flex-row-reverse flex-md-row my-5'>
               <div className='order-first order-md-last '>
-                <Sidebar></Sidebar>
+                <UserSidebar></UserSidebar>
                 </div>
                 <div className='me-5 order-last order-md-first '>
                 <Article></Article>
