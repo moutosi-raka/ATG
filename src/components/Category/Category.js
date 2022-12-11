@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 import user from '../../assets/Vector.png'
 import './Category.css'
 
+
 const Category = () => {
     return (
-        <div className='border-bottom d-flex justify-content-between align-items-center'>
+        <div className='d-md-flex d-block justify-content-between align-items-center category'>
             <div>
                 <ul className='nav'>
                     <li class="nav-item">
@@ -26,7 +27,7 @@ const Category = () => {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className= 'mt-md-0 mt-3'>
             <button className='me-3 button bg-gray'>
             Write post <FaCaretDown className='d-inline'></FaCaretDown>
             </button>

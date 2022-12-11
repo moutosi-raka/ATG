@@ -3,3 +3,10 @@
     border: none;
     padding: 10px;
 }
+.sidebar-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+}

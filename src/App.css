@@ -46,4 +46,7 @@ html{
     .banner{
         min-height: 10vh;
     }
+    .category{
+        border-bottom: none;
+    }
 }
