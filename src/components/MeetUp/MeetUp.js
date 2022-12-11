@@ -5,6 +5,7 @@ import rohan from '../../assets/meet up/Ronal Jones.png'
 import { HiOutlineEllipsisHorizontal, HiOutlineEye } from "react-icons/hi2";
 import { FaShareAlt } from 'react-icons/fa';
 import { TbCalendarEvent,  TbMapPin} from "react-icons/tb";
+import OutLineIcon from '../OutLineIcon/OutLineIcon';
 
 const MeetUp = () => {
     return (
@@ -15,7 +16,7 @@ const MeetUp = () => {
                 <p className='m-0'>🗓️ Meetup</p>
                 <div className='d-flex justify-content-between align-items-center'>
                   <h6 className='fw-bold'>Finance & Investment Elite Social Mixer @Lujiazui</h6>
-                  <p className='fs-4 fw-bold'><HiOutlineEllipsisHorizontal></HiOutlineEllipsisHorizontal></p>
+                  <OutLineIcon></OutLineIcon>
                 </div>
                 
               <div>

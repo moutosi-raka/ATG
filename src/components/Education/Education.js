@@ -5,6 +5,7 @@ import karma from '../../assets/article/karme.png'
 import { HiOutlineEllipsisHorizontal, HiOutlineEye } from "react-icons/hi2";
 import { FaShareAlt } from 'react-icons/fa';
 import education from '../../assets/education/education.png'
+import OutLineIcon from '../OutLineIcon/OutLineIcon';
 
 const Education = () => {
     return (
@@ -15,7 +16,7 @@ const Education = () => {
                     <p className='m-0'>🔬️ Education</p>
                     <div className='d-flex justify-content-between align-items-center'>
                       <h6 className='fw-bold'>Tax Benefits for Investment under National Pension <br/>  Scheme launched by Government</h6>
-                      <p className='fs-4 fw-bold'><HiOutlineEllipsisHorizontal></HiOutlineEllipsisHorizontal></p>
+                      <OutLineIcon></OutLineIcon>
                     </div>
                     
                     <Card.Text className='text-secondary'>

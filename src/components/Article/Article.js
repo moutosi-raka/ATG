@@ -2,8 +2,9 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import articleImg from '../../assets/article/Article.png'
 import karma from '../../assets/article/karme.png'
-import { HiOutlineEllipsisHorizontal, HiOutlineEye } from "react-icons/hi2";
+import {HiOutlineEye } from "react-icons/hi2";
 import { FaShareAlt } from 'react-icons/fa';
+import OutLineIcon from '../OutLineIcon/OutLineIcon';
 
 const Article = () => {
     return (
@@ -14,7 +15,7 @@ const Article = () => {
                     <p className='m-0'>✍️ Article</p>
                     <div className='d-flex justify-content-between align-items-center'>
                       <h6 className='fw-bold'>What if famous brands had regular fonts?<br/> Meet RegulaBrands!</h6>
-                      <p className='fs-4 fw-bold'><HiOutlineEllipsisHorizontal></HiOutlineEllipsisHorizontal></p>
+                      <OutLineIcon></OutLineIcon>
                     </div>
                     
                     <Card.Text className='text-secondary'>
